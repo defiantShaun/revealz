@@ -1,6 +1,6 @@
 So... this is basically Reveal.js, but with the Grunt/Node stuff stripped out.
 
-[Demo is here](http://aaronr.github.io/revealz)
+[Demo is here](http://defiantShaun.github.io/revealz)
 
 I just take a release snapshot of Reveal, stripped out what I did not want.
 

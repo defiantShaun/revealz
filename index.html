@@ -1,99 +1,35 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Revealz_geography : A simple adaptation of Reveal.js that assumes you want to have your whole presentation in one md file" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Revealz geography</title>
+    <meta charset="utf-8">
+    <title>My Title</title>
+    <meta name="description" content="Keywords Here">
+    <meta name="author" content="Aaron Racicot">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+    <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
   </head>
-
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/defiantShaun/revealz">View on GitHub</a>
-
-          <h1 id="project_title">Revealz_geography</h1>
-          <h2 id="project_tagline">A simple adaptation of Reveal.js that assumes you want to have your whole presentation in one md file</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/defiantShaun/revealz/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/defiantShaun/revealz/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section data-markdown="slides.md" data-separator="^--SLIDE--$" data-vertical="^--SUBSLIDE--$"></section>
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>So... this is basically Reveal.js, but with the Grunt/Node stuff stripped out.</p>
-
-<p><a href="http://defiantShaun.github.io/revealz">Demo is here</a></p>
-
-<p>Test if this works!.</p>
-
-<p>I just take a release snapshot of Reveal, stripped out what I did not want.</p>
-
-<p>My workflow (and I assume yours as well) is that you want a template presentation to start from, but are not interested in cloning or forking as you will want to change lots of stuff.  So... I just get an archive of the repo, edit some basic stuff, and check it into a new repo.</p>
-
-<p>To install:</p>
-
-<pre><code>wget https://github.com/aaronr/revealz/archive/master.zip
-unzip master.zip
-mv revealz-master myNewPresentation
-cd myNewPresentation/
-</code></pre>
-
-<p>If you are already on a server in a web accessible directory... just got to the URL and you are rolling.</p>
-
-<p>To run a local (port 8000) webserver (to get the markdown includes to work) I just use:</p>
-
-<pre><code>python -m SimpleHTTPServer
-</code></pre>
-
-<p>Every server has python... and I like Python.</p>
-
-<p>Go ahead and check that baby into your new repo and roll...</p>
-
-<p>The main idea is that the index.html file has been stripped down, the js config moved to a config.js file, and the FULL presentation content comes from slides.md.</p>
-
-<p>You heard me... ALL the slide content is in one file... slides.md</p>
-
-<p>You use <code>--SLIDE--</code> on a line by itself to indicate the next horizontal slide.  You use <code>--SUBSLIDE--</code> on a line by itslef to indicate the next vertical sub-slide.</p>
-
-<p>You can just use html comments inline to write notes etc:</p>
-
-<pre><code>&lt;!------------------------------------------------------------&gt;
---SLIDE--
-&lt;!-- Topic: xxx --&gt;
-
-&lt;h1&gt;Slide 15&lt;/h1&gt;
-
---SUBSLIDE--
-
-&lt;h2&gt;Sub Slide 15--1&lt;/h2&gt;
-</code></pre>
-
-<p>There is an images directory and you can either use markdown or raw html to embed images etc.</p>
-
-<p>Thats it... pretty basic, but a template for a single markdown page presentation in Reveal.js</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Revealz_geography maintained by <a href="https://github.com/defiantShaun">defiantShaun</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script src="config.js"></script>
   </body>
 </html>

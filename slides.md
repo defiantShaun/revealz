@@ -23,11 +23,11 @@ This is an inline link to [CNN](http://cnn.com/ "Link to CNN").
 --SUBSLIDE--
 
 <h2>Sub Slide 1--1</h2>
-
+![Markdown Image](images/digest.png)
 --SUBSLIDE--
 
 <h2>Sub Slide 1--2</h2>
-
+![Markdown Image](images/bands.png)
 
 <!------------------------------------------------------------>
 --SLIDE--

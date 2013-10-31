@@ -27,7 +27,7 @@ This is an inline link to [CNN](http://cnn.com/ "Link to CNN").
 --SUBSLIDE--
 
 <h2>Sub Slide 1--2</h2>
-![Markdown Image](images/bands.png)
+<img src="images/bands.png" style="max-height: 450px;">
 
 <!------------------------------------------------------------>
 --SLIDE--

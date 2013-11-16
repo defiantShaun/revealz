@@ -12,7 +12,12 @@
 --SUBSLIDE--
 
 <h2>Sub Slide 0--2</h2>
-This is an inline link to [CNN](http://cnn.com/ "Link to CNN").
+This is an inline link to [idEditor](http://ideditor.com/  "Link to idEditor").
+
+--SUBSLIDE--
+
+<h2>Sub Slide 0--3</h2>
+This is an inline link to [qGIS](http://www.qgis.org/en/site/ "Link to qGIS").
 
 <!------------------------------------------------------------>
 --SLIDE--

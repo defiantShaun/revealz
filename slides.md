@@ -24,17 +24,17 @@ This is an inline link to [qGIS](http://www.qgis.org/en/site/ "Link to qGIS").
 <!-- Topic: Geography -->
 
 <h1>Geography!</h1>
-<img src="images/Rotating_globe.gif" style="max-height: 450px;">
+<img src="images/HighwaterUS.png" style="max-height: 450px;">
 
 --SUBSLIDE--
 
 <h2>Sub Slide 1--1</h2>
-![Markdown Image](images/NightEarth.png)
+![Markdown Image](images/McClureSchoolToWP.png)
 
 --SUBSLIDE--
 
 <h2>Sub Slide 1--2</h2>
-<img src="images/NightUS.png" style="max-height: 450px;">
+<img src="images/DesertFarming.png" style="max-height: 450px;">
 
 
 

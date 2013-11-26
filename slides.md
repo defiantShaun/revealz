@@ -21,18 +21,22 @@ This is an inline link to [qGIS](http://www.qgis.org/en/site/ "Link to qGIS").
 
 <!------------------------------------------------------------>
 --SLIDE--
-<!-- Topic: yyy -->
+<!-- Topic: Geography -->
 
-<h1>Slide 1</h1>
+<h1>Geography!</h1>
+<img src="images/rotating_globe.gif" style="max-height: 450px;">
 
 --SUBSLIDE--
 
 <h2>Sub Slide 1--1</h2>
-![Markdown Image](images/digest.PNG)
+![Markdown Image](images/NightEarth.PNG)
+
 --SUBSLIDE--
 
 <h2>Sub Slide 1--2</h2>
-<img src="images/Bands.PNG" style="max-height: 450px;">
+<img src="images/NightUS.PNG" style="max-height: 450px;">
+
+
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -47,3 +51,18 @@ This is an inline link to [qGIS](http://www.qgis.org/en/site/ "Link to qGIS").
 --SUBSLIDE--
 
 <h2>Sub Slide 2--2</h2>
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: yyy -->
+
+<h1>Slide 3</h1>
+
+--SUBSLIDE--
+
+<h2>Sub Slide 3--1</h2>
+![Markdown Image](images/digest.PNG)
+--SUBSLIDE--
+
+<h2>Sub Slide 3--2</h2>
+<img src="images/Bands.PNG" style="max-height: 450px;">

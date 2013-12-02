@@ -14,7 +14,7 @@ Maps and
 --SUBSLIDE--
 
 <h2>What I studied.</h2>
-<img src="images/TheGeographer.png" style="max-height: 450px;">
+<img src="images/thegeographer.png" style="max-height: 450px;">
 
 
 

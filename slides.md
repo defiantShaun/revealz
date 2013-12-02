@@ -94,7 +94,7 @@ you should.
 --SUBSLIDE--
 
 <h2>Water Cycle</h2>
-<img src="images/WWHydrocycle2.png" style="max-height: 450px;">
+<img src="images/WWhydrocycle2.png" style="max-height: 450px;">
 
 --SUBSLIDE--
 
